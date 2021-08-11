@@ -9,4 +9,3 @@ variable "schedule_expression" {
   description = "The cloudwatch schedule expression used to run the updater lambda."
   default     = "cron(0 20 * * ? *)"
 }
-# test
